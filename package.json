@@ -3,9 +3,7 @@
   "version": "2.5.0",
   "description": "Command line tool for generating a changelog from git tags and commit history",
   "main": "./src/index.js",
-  "bin": {
-    "auto-changelog": "./src/index.js"
-  },
+  "bin": "./src/index.js",
   "engines": {
     "node": ">=8.3"
   },
